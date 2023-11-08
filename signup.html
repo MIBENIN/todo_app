@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="message-div">
+            <p id="message">message</p>
+        </div>
+        <form action="" id="signupForm" novalidate>
+            <h1 class="title">SignUp Form</h1>
+            <div class="form-group">
+                <label for="name" class="label-group">Full name</label>
+                <input type="text" id="name" name="fullname" required class="input-group">
+            </div>
+            <div class="form-group">
+                <label for="email" class="label-group">Email</label>
+                <input type="email" id="email" name="email" required class="input-group">
+            </div>
+            <div class="form-group">
+                <label for="phone" class="label-group">Phone Number</label>
+                <input type="text" id="phone" name="fullname" required class="input-group" maxlength="10">
+            </div>
+            <div class="form-group">
+                <label for="password" class="label-group">Password</label>
+                <input type="password" id="password" name="password" required class="input-group">
+            </div>
+            <div class="form-group">
+                <div class="radio=group">
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="submit" value="SignUp" class="input-group submit-btn">
+            </div>
+            <p>👍 Sign in! If you have a account!</p>
+            <div class="form-group">
+                <a href="signin.html" class="signin-btn">Sign In</a>
+            </div>
+        </form>
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>

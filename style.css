@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgba(243,0,248,1) 0%, rgba(94,0,255,1) 100%);
+}
+.container{
+    width:90%;
+    max-width: 1080px;
+    min-height: 100vh;
+    margin: 5em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-weight: 700;
+    text-align: center;
+    padding: .5em 0;
+}
+form{
+    width: 100%;
+    max-width:25rem;
+    background-color: white;
+    border-radius: .5em;
+    padding: 1em;
+}
+.taskform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.message-div{
+    position: absolute;
+    padding: 1em;
+    background-color: white;
+    top:.5em;
+    border-radius: .5em;
+    width:25rem;
+    text-align: center;
+    display: none;
+}
+.input-group,
+.label-group{
+    display: block;
+    width: 100%;
+}
+.radio-group{
+    margin: .5em 0;
+}
+.form-group{
+    margin: 1em 0;
+}
+.input-group{
+    margin-top: .5em;
+    padding: 1em;
+}
+.task-input{
+    width: 100%;
+}
+.task-input input{
+    padding:1em;
+    min-width: 100%;
+}
+#SubmitTask{
+    background-color: dodgerblue;
+    padding: 1.2em;
+    color: white;
+    border-radius: .5em;
+    cursor: pointer;
+    border: none;
+}
+.submit-btn{
+    background-color: dodgerblue;
+    border-radius: .5em;
+    color:white;
+    border: none;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+.signup-btn,
+.signin-btn{
+    background-color: dodgerblue;
+    border-radius: .5em;
+    display: inline-block;
+    padding: .7em;
+    color: white;
+    text-decoration: none;
+}
+.task-list{
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+.tasks{
+    background: linear-gradient(90deg, rgba(243,0,248,1) 0%, rgba(94,0,255,1) 100%);
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    border-radius: .5em;
+}
+.task{
+    color:white;
+    text-transform: capitalize;
+}
+.task-div{
+    width: 100%;
+}
+.task-button-div{
+    display: flex;
+    align-items: center;
+    gap:.5em;
+}
+.task-button{
+    cursor: pointer;
+    padding: .5em;
+    background-color: white;
+    border-radius: .3em;
+}
